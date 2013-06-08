@@ -1,0 +1,16 @@
+.\obj\target.o: driver\target.c
+.\obj\target.o: C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h
+.\obj\target.o: C:\Keil\ARM\INC\core_cm3.h
+.\obj\target.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\obj\target.o: C:\Keil\ARM\INC\ST\STM32F10x\system_stm32f10x.h
+.\obj\target.o: .\config\config.h
+.\obj\target.o: .\include\global.h
+.\obj\target.o: .\include\errordef.h
+.\obj\target.o: .\include\debug.h
+.\obj\target.o: .\include\cdrvdef.h
+.\obj\target.o: .\include\instdef.h
+.\obj\target.o: .\include\cdrv.h
+.\obj\target.o: .\include\cdrvbxcan.h
+.\obj\target.o: .\include\target.h
+.\obj\target.o: C:\Keil\ARM\RV31\INC\string.h
+.\obj\target.o: C:\Keil\ARM\RV31\INC\stdio.h

@@ -1198,11 +1198,6 @@ tTime PUBLIC  TgtGetTickCount (void);
 }
 #endif
 
-
-
-#include "tgtos.h"
-
-
 #endif //_TARGET_H_
 
 // EOF

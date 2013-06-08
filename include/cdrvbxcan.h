@@ -177,15 +177,15 @@ typedef struct
     __IO DWORD FA1R;
          DWORD RESERVED5[8];
 
-#if ((TARGET_HARDWARE & TGT_CPU_MASK_) == TGT_CPU_STM32F_PL)
+//#if ((TARGET_HARDWARE & TGT_CPU_MASK_) == TGT_CPU_STM32F_PL)
     // 14 filter banks (CAN1) in STM32 performance line devices
-    tFilterReg sFilterRegister[14];
-#endif
+    //tFilterReg sFilterRegister[14];
+//#endif
 
-#if ((TARGET_HARDWARE & TGT_CPU_MASK_) == TGT_CPU_STM32F_CL)
+//#if ((TARGET_HARDWARE & TGT_CPU_MASK_) == TGT_CPU_STM32F_CL)
     // 28 filter banks shared between CAN1 and CAN2 in STM32 connectivity line devices
     tFilterReg sFilterRegister[28];
-#endif /* (CDRV_MAX_INSTANCES < 2) */
+//#endif /* (CDRV_MAX_INSTANCES < 2) */
 }
 tCanRegister;
 

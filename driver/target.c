@@ -29,7 +29,7 @@
 ****************************************************************************/
 
 #include "stm32f10x.h"
-#include "cdrvinc.h"
+#include "config.h"
 
 
 #if !defined (STM32F10X_LD)    && \

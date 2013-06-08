@@ -1,0 +1,17 @@
+.\obj\main.o: main\main.c
+.\obj\main.o: main\..\include\rcc.h
+.\obj\main.o: main\..\include\..\include\stm32f10x_reg.h
+.\obj\main.o: main\..\include\hardware.h
+.\obj\main.o: main\..\include\usart.h
+.\obj\main.o: main\..\include\..\config\config.h
+.\obj\main.o: .\include\global.h
+.\obj\main.o: .\include\errordef.h
+.\obj\main.o: .\include\debug.h
+.\obj\main.o: .\include\cdrvdef.h
+.\obj\main.o: .\include\instdef.h
+.\obj\main.o: .\include\cdrv.h
+.\obj\main.o: .\include\cdrvbxcan.h
+.\obj\main.o: .\include\target.h
+.\obj\main.o: C:\Keil\ARM\RV31\INC\string.h
+.\obj\main.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\obj\main.o: C:\Keil\ARM\RV31\INC\stdlib.h

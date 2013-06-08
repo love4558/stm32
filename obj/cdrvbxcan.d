@@ -1,0 +1,12 @@
+.\obj\cdrvbxcan.o: driver\cdrvbxcan.c
+.\obj\cdrvbxcan.o: .\config\config.h
+.\obj\cdrvbxcan.o: .\include\global.h
+.\obj\cdrvbxcan.o: .\include\errordef.h
+.\obj\cdrvbxcan.o: .\include\debug.h
+.\obj\cdrvbxcan.o: .\include\cdrvdef.h
+.\obj\cdrvbxcan.o: .\include\instdef.h
+.\obj\cdrvbxcan.o: .\include\cdrv.h
+.\obj\cdrvbxcan.o: .\include\cdrvbxcan.h
+.\obj\cdrvbxcan.o: .\include\target.h
+.\obj\cdrvbxcan.o: C:\Keil\ARM\RV31\INC\string.h
+.\obj\cdrvbxcan.o: C:\Keil\ARM\RV31\INC\stdio.h
