@@ -17,9 +17,14 @@
 
 #ifndef __config_h__
 #define __config_h__
+//------------------define for CAN-------------------------------//
 
 #define CDRV_MAX_INSTANCES		1
 #define CDRVDLLEXPORT
+//------------------define for USB-------------------------------//
+
+#define ENDP1_TXADDR        (0xC0)
+
 //-----------------Include files-------------------------//
 #ifndef __GLOBAL_H__
 	#define __GLOBAL_H__

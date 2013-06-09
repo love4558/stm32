@@ -19,6 +19,11 @@
 #include "..\include\hardware.h"
 #include "..\include\usart.h"
 #include "config.h"
+
+#include "usb_lib.h"
+#include "usb_desc.h"
+#include "usb_pwr.h"
+
 #include <string.h>
 #include <stdlib.h>
 
@@ -57,6 +62,10 @@ int main(void)
 {
 	rcc.initialize();
 	usart1.initialize(115200);
+
+  Set_USBClock();
+  USB_Interrupts_Config();
+  USB_Init();
 
 	while (1) {
 	}

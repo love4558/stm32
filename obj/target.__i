@@ -1,1 +1,0 @@
--c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\include -I.\config --c99 -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DNDEBUG -DSTM32F10X_CL -DNO_PRINTF -DNO_QWORD -DINIT_SERIAL -o ".\obj\target.o" --omf_browse ".\obj\target.crf" --depend ".\obj\target.d" "driver\target.c"
