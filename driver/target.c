@@ -31,7 +31,6 @@
 #include "stm32f10x.h"
 #include "config.h"
 
-
 #if !defined (STM32F10X_LD)    && \
     !defined (STM32F10X_LD_VL) && \
     !defined (STM32F10X_MD)    && \
@@ -104,7 +103,7 @@ void PUBLIC SystemInit (void)
 
     //--------------------------------------------------------------------------
     // Clock configuration für CPU clock
-    TgtSetSysClock();
+    //TgtSetSysClock();
 
 }
 
